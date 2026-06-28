@@ -67,68 +67,21 @@ aircrack-ng -w /path/to/wordlist.txt capture-01.cap
 
 <b>Advanced Techniques</b>
 ---
-<br>
-PMKID Attack (no client needed in many cases)<br>
-Full hcxtools workflow (recommended for modern setups)<br>
-Mask attacks, combinator attacks<br>
-Custom wordlist generation with crunch or cewl<br>
-
+- PMKID Attack (no client needed in many cases)<br>
+- Full hcxtools workflow (recommended for modern setups)<br>
+- Mask attacks, combinator attacks<br>
+- Custom wordlist generation with crunch or cewl<br>
 (See appendix.md for details)<br>
-Troubleshooting<br>
 
-"No such device" or channel issues → airmon-ng check kill<br>
-Driver problems → Check iw list and consider better hardware<br>
-GPU setup → Install latest NVIDIA/AMD drivers + Hashcat<br>
+<b>Troubleshooting</b><br>
+---
+- "No such device" or channel issues → airmon-ng check kill<br>
+- Driver problems → Check iw list and consider better hardware<br>
+- GPU setup → Install latest NVIDIA/AMD drivers + Hashcat<br>
 
 <b>Legal & Ethical Notes</b>
 ---
-<br>
-
-Always obtain permission<br>
-Use for red teaming, personal network testing, or bug bounties<br>
-Respect privacy — do not use captured data maliciously<br>
-<b>Contributing</b>
----
-See CONTRIBUTING.md. Pull requests welcome for updates, new techniques, or translations.
---
-Last tested: June 2026 with Aircrack-ng 1.7+ and Hashcat 6.2+
-```bash
-
-### 3. Updated `appendix.md` (Key Improvements)
-
-Replace with expanded, modernized version focusing on:
-
-- PMKID attack (very important modern addition)
-- Full hcxtools recommendation
-- Updated macOS section
-- Wordlist sources (SecLists, etc.)
-- Hardware buying guide (2026 relevant)
-- Automation script example
-
-### 4. New Files to Add
-
-**`CONTRIBUTING.md`**:
-```markdown
-# Contributing
-
-Thank you for your interest!
-
-1. Fork the repo
-2. Create a feature branch
-3. Make changes + test commands
-4. Submit PR with clear description
-
-We welcome:
-- Updated commands for newer tool versions
-- New attack techniques
-- Better documentation
-- Translations
-```
-Optional: scripts/capture.sh (make executable):
-```bash
-#!/bin/bash
-# Simple wrapper - customize as needed
-echo "Modern Wi-Fi capture helper coming soon..."
-```
-
+- Always obtain permission<br>
+- Use for red teaming, personal network testing, or bug bounties<br>
+- Respect privacy — do not use captured data maliciously<br>
 
