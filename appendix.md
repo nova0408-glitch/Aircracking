@@ -116,7 +116,7 @@ Crunch will now generate the following amount of data: 900000000 bytes
 0 GB
 0 TB
 0 PB
-Crunch will now generate the following number of lines: 100000000 
+Crunch will now generate the following number of lines:100000000 
 00000000
 00000001
 00000002
